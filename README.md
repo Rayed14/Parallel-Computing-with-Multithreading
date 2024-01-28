@@ -27,6 +27,7 @@ The sum of all elements in the array is computed and stored in a global variable
 * Two versions of multithreading are implemented:
 
 Version 1 (Block Wise): Threads operate on blocks of the 2D array with varying block sizes.
+
 Version 2 (Cyclic): Threads operate cyclically on fixed rows of the 2D array.
 * Performance Evaluation:
 
